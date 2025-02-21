@@ -6,13 +6,12 @@ using System.Threading.Tasks;
 
 namespace Efcore2.Enitities
 {
-    internal class Student
+    internal class Course
     {
         public int Id { get; set; }
+
         public string Name { get; set; }
 
-        public int Age { get; set; }
-
-        public List<Course> Course { get; set; }
+        public List<Student> Student { get; set; }
     }
 }

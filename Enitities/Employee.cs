@@ -19,7 +19,7 @@ namespace Efcore2.Enitities
         //[InverseProperty(nameof(Department.Manager))]
         //public  Department? Department { get; set; }
 
-        public int WorkForId { get; set; }
-        public Department? WorkFor { get; set; }
+        //public int WorkForId { get; set; }
+        //public Department? WorkFor { get; set; }
     }
 }

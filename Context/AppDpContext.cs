@@ -27,5 +27,10 @@ namespace Efcore2.Context
 
         public DbSet<Employee> Employee { get; set; }
         public DbSet<Department> Department { get; set; }
+
+        public DbSet<Student> Student { get; set; }
+        public DbSet<Course> Course { get; set; }
+
     }
+
 }
