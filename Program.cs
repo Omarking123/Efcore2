@@ -88,6 +88,7 @@ namespace Efcore2
 
             Employee employee1 = new Employee();
             Department department = new Department();
+            Console.WriteLine( "test");
 
 
         }
