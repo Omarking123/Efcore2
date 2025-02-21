@@ -16,8 +16,8 @@ namespace Efcore2.Context
 
             //modelBuilder.Entity<Employee>().HasKey("Id");
             modelBuilder.Entity<Employee>().HasKey(E=>E.Id);
-
-            modelBuilder.Entity<Employee>().HasOne(E => E.Department).WithOne(D => D.Manager).HasForeignKey<Department>(D=>D.EmpId);
+            //modelBuilder.Entity<Department>().HasMany(D => D.Employee).WithOne(E => E.WorkFor).HasForeignKey(D => D.WorkForId);
+            ///modelBuilder.Entity<Employee>().HasOne(E => E.Department).WithOne(D => D.Manager).HasForeignKey<Department>(D=>D.EmpId);
             base.OnModelCreating(modelBuilder);
         }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)

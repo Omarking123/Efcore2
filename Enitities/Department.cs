@@ -13,8 +13,10 @@ namespace Efcore2.Enitities
         public string DeptName { get; set; }
 
 
-        public int EmpId { get; set; }
-        public Employee? Manager { get; set; }
+        //public int EmpId { get; set; }
+        //public Employee? Manager { get; set; }
+
+        public List<Employee>  Employee { get; set; }
     }
     
 }

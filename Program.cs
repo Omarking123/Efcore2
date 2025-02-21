@@ -86,6 +86,9 @@ namespace Efcore2
             //Department department = new Department();
             //department.Id;
 
+            Employee employee1 = new Employee();
+            Department department = new Department();
+
 
         }
     }
