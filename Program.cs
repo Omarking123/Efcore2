@@ -83,6 +83,9 @@ namespace Efcore2
             #endregion
 
 
+            //Department department = new Department();
+            //department.Id;
+
 
         }
     }
